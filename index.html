@@ -504,6 +504,7 @@
       document.getElementById('wwTory').textContent=twp+'%';
       document.getElementById('wwLibdem').textContent=dwp+'%';
       document.getElementById('totalVotes').textContent=n.toLocaleString();
+      document.getElementById('sessionNo').textContent=n;
       
       const v=document.getElementById('verdictBanner');
       if(lwp>twp&&lwp>dwp){v.className='verdict labour';v.textContent='🔴 The Public Says: Starmer Won This Week';}
